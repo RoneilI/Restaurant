@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="reset.css" rel="stylesheet" />
+    <link href="stylesheet1.css" rel="stylesheet" />
+    <link href="media.css" rel="stylesheet" />
+    <link href="reservation_styles.css" rel="stylesheet" />
+    <script src="reserve.Js" defer></script>
+    <title>Reservation - Jamaican Restaurant</title>
+    
+</head>
+<body>
+   
+    <div class="navbar">
+         <h2>Yaadi</h2>
+        <nav >
+            <ul style="display: flex;" >
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <section>
+         <form action="submit.php" method="post">
+            <fieldset>
+                <legend><h1>Make a Reservation</h1></legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"  placeholder="First and Last name" required>
+                <br>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+                <br>
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+                <br>
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" required>
+                <br>
+            </fieldset>
+        
+            <div class="button-container">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    </section>
+
+    
+    <footer>
+        <p>&copy; 2023 Jamaican Restaurant . 85 Greenvil   54300 . 201~589~4575 </p>
+    </footer>
+</body>
+</html>

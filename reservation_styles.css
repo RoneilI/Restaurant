@@ -1,0 +1,61 @@
+h1 {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(0, 0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: 500px;
+    background-color: cornsilk; 
+}
+
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+body {
+   background-image: url(giphy.gif);
+   background-size: cover;  
+}
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-container {
+    text-align: center;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #555;
+}

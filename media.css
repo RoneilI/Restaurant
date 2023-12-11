@@ -1,0 +1,93 @@
+/* ===============================
+   Mobile Devices: 0 to 480px 
+   ===============================
+*/
+
+@media only screen and (max-width: 480px) {
+
+    /* Navigation styles */
+    
+    nav.horizontal ul li a {
+       text-align: left;
+       text-indent: 12px;
+    }
+    
+    /* Aside Styles */
+    
+    body > aside {
+       display: none;
+    }
+    
+    /* Navicon Menu Styles */
+    
+    a#navicon {
+       display: block;
+    }
+    
+    nav.horizontal ul {
+       display: none;
+    }
+    
+    
+    a#navicon:hover+ul, nav.horizontal ul:hover {
+       display: block;
+    }
+ }
+ 
+ /* ===============================
+    Tablet Devices: 481px to 768px 
+    ===============================
+ */
+ 
+ @media only screen and (min-width: 481px) {
+ 
+    
+ 
+    
+    /* Article H1 Styles */
+    
+    section > h1 {
+       color: rgb(56, 48, 44);
+       font-size: 25px;
+       letter-spacing: 0.2em;
+       margin-bottom: 40px;
+       text-shadow: black 2px 2px 4px;
+    }
+    
+    /* Navigation Styles */
+    
+    nav.horizontal li {
+       font-size: 1.2em;
+    }
+    
+    /* Tablet Flex Styles */
+    
+    nav.horizontal ul {
+       display: -webkit-flex;
+       display: flex;
+       -webkit-flex-flow: row nowrap;
+       flex-flow: row nowrap;
+    }
+    
+    nav.horizontal li {
+       -webkit-flex: 1 1 auto;
+       flex: 1 1 auto;
+    }
+    
+    /* Navicon Menu Styles */
+    
+    a#navicon {
+       display: none;
+    }
+    
+    /* Image Styles */
+    body > section#main > article img {
+       box-shadow: 3px 3px 10px rgb(151, 151, 151);
+       display: block;
+       float: right;
+       margin: 0px 20px 20px 20px;
+       width: 60%;
+    }
+ }
+ 
+ 
